@@ -1,6 +1,5 @@
 {
     "name": "huyphi/health-checks",
-    "type": "project",
     "require": {
         "vlucas/phpdotenv": "^2.0",
         "symfony/http-foundation": "^2.7"
