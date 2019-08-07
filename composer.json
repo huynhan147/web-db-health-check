@@ -1,0 +1,27 @@
+{
+    "name": "huyphi/health-checks",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.0",
+        "symfony/http-foundation": "^2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Coreproc\\HealthChecks\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Huy Phi",
+            "email": "huynhanx1@gmail.com"
+        }
+    ]
+}
